@@ -138,10 +138,13 @@ form > p {
 }
 
 .field input {
+    width: 200px;
     height: 25px;
     padding: 5px;
     border: 1px solid #E5E7EB;
     border-radius: 3px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 
     /*remove black outline in input field when focused*/
     outline: none;
@@ -160,5 +163,30 @@ form > p {
 
 .submitButton{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 15px 35px;
+    --font-color-with-background-pic: SaddleBrown;
+}
+
+.submitButton button[type="submit"]{
+    width: 180px;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--font-color-with-background-pic);
+    color:white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.submitButton button[type="submit"]:active{
+    opacity: 0.5;
+}
+
+.submitButton > p {
+    margin: 10px 0px;
+}
+
+.submitButton > p > span{
+    color: var(--font-color-with-background-pic);
 }
