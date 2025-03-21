@@ -33,6 +33,9 @@ body {
     background-image: url("pictures/background-image.jpg");
     background-position: center;
     background-size: cover;
+
+    /* relative attribute in sideBar can make 
+    logo part use absolute attribute to position*/
     position: relative;
     
     display: flex;
@@ -84,7 +87,6 @@ body {
     background-color: rgb(250, 250, 250);
     font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 
-
     flex-direction: column;
 }
 
@@ -131,6 +133,9 @@ form > p {
     margin-right: 60px;
     margin-top: 5px;
     margin-bottom: 5px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .field label{
