@@ -1,7 +1,7 @@
 # odin-sign_up_form
 Project: Sign-up Form
 
-This is the sixth project to work in the "JavaScript Basics"
+This is the sixth project to work in the "Intermediate HTML and CSS Course"
 
 Github page: https://rightbear.github.io/odin-sign_up_form/
 
